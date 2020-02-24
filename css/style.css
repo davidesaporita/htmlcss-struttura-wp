@@ -1,0 +1,32 @@
+/* General */
+* {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #ddd;
+}
+
+#wrapper {
+  width: 70%;
+  height: 300px;;
+  margin: auto;
+  background-color: #eee;
+}
+
+/* Header */
+#main-header {
+  height: 240px;
+  background-color: red;
+}
+
+#nav-menu {
+  height: 60px;
+  background-color: blue;
+}
+
+
+/* Main */
+
+
+
+
+/* Footer */
