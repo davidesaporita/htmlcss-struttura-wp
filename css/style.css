@@ -93,7 +93,7 @@ a:visited {
 #container h3,
 #container h4 {
   padding-bottom: 30px;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 500;
   color: #524943;
 }
@@ -112,7 +112,7 @@ a:visited {
 }
 
 .col *,
-footer {
+.footer {
   border-radius: 7px;
 }
 
@@ -134,6 +134,28 @@ footer {
 
 .sidebar > aside > div {
   padding: 10px;
+}
+
+.sidebar-heading {
+  color: #FAA501;
+  font-size: 22px;
+}
+
+.sidebar-heading .icon,
+.sidebar-heading .title {
+  float: left;
+}
+
+.sidebar-heading .icon {
+  width: 15%;
+}
+
+.sidebar-heading .title {
+  width: 85%;
+}
+
+.sidebar h4 {
+
 }
 
 .sidebar aside > div > ul {
