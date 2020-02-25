@@ -122,11 +122,7 @@ h4 {
   padding-left: 50px;
 }
 
-aside > div,
-article > div,
-.footer {
-  border-radius: 5px;
-}
+/* Main - definizione colonne */
 
 .sidebar,
 .widgets {
@@ -135,6 +131,14 @@ article > div,
 
 .content {
   width: 60%;
+}
+
+/* Main - arrotondamento margini */
+
+aside > div,
+article > div,
+.footer {
+  border-radius: 5px;
 }
 
 /* Main - Sidebar */
@@ -151,7 +155,6 @@ article > div,
 
 .sidebar-heading {
   color: #FAA501;
-  height: auto;
 }
 
 .sidebar-heading .icon,
