@@ -75,7 +75,6 @@ a:visited {
 
 #nav-menu > ul {
   padding: 0;
-  list-style: none;
   line-height: 50px;
   font-size: 12px;
   font-weight: 700;
@@ -128,26 +127,43 @@ footer {
 
 /* Main - Sidebar */
 
-.sidebar > div {
-  background: #fff;
+.sidebar a {
+  font-weight: 500;
+  color: #3D942D;
+}
+
+.sidebar > aside > div {
   padding: 10px;
-  background-color: white;
+}
+
+.sidebar aside > div > ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar aside > div > ul > li {
+  padding: 5px 0;
+  text-transform: capitalize;
+}
+
+.sidebar aside > div > ul > li:first-of-type {
+  text-transform: none;
 }
 
 /* Main - Content */
 
-article,
+.content > article,
 .widgets {
   line-height: 30px;
 }
 
-.content > div {
+.content > article > div {
   padding: 10px;
 }
 
-.sidebar > div,
-.content > div,
-.widgets > div {
+.sidebar > aside > div,
+.content > article > div,
+.widgets > aside > div {
   min-height: 300px;
   padding: 20px;
   margin-bottom: 20px;
@@ -157,18 +173,21 @@ article,
 /* Footer */
 
 .footer {
-  width: 100%;
   height: 150px;
-  background-color: #eee;
+  background-color: #fff;
   margin-bottom: 20px;
 }
 
 #footer-text {
-  padding: 20px 0 30px 0;
+  padding-top: 2px;
+  border-bottom: 1px solid #999;
+  margin-right: 3px;
+  margin-left: 3px;
+  color: #ccc;
 }
 
 #socials {
-  width: 50%;
+  width: 100%;
   margin: auto;
   padding: 0;
   list-style: none;
@@ -177,6 +196,12 @@ article,
 #socials > li {
   float: left;
   width: calc(100%/3);
+}
+
+#socials > li > a {
+  font-size: 40px;
+  color: #cecece;
+  line-height: 120px;
 }
 
 .bottom {
